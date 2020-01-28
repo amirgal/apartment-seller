@@ -71,13 +71,15 @@ label{
     "i la a"
     "i lpr p"
     "i lr r"
-    "i lpark park";
+    "i lpark park"
+    "i limm imm";
     box-shadow: 1px 1px 3px #0a1612;
     margin: 20px;
     padding: 20px;
     margin-top: 50px;
     background-color: #443729;
     align-items: center;
+    justify-items: center;
 }
 
 .check-group{
@@ -130,7 +132,10 @@ button:active{background-color: #443729;}
     grid-area: lpark;
 }
 
-.result>.l-immediate{}
+.result>.l-immediate{
+    grid-area: limm;
+    display: block;
+}
 
 .result>.address{
     grid-area: a;
@@ -148,7 +153,10 @@ button:active{background-color: #443729;}
     grid-area: park;
 }
 
-.result>.immediate{}
+.result>.immediate{
+    grid-area: imm;
+    display: block;
+}
 
 .no-match{
     color: #DD6300;
