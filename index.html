@@ -38,6 +38,12 @@
     <!-- Your Code Here -->
     <!-- You should start doing handlebar stuff here -->
     <!-- Your Code Here -->
+    <script id="results-template" type="text/x-handlebars-template">
+            {{#each apartment}}
+                <p>{{this.price}}</p> 
+            {{/each}}
+    </script>
+    <!-- not good -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
